@@ -4,8 +4,7 @@ public class Task8 {
 
     public static double calculatePrice(int price, double discount) {
         double discountAmount = price * discount / 100.0;
-        double discountedPrice = price - discountAmount;
-        return discountedPrice;
+        return price - discountAmount;
     }
 
     public static void main(String[] args) {
